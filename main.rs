@@ -21,8 +21,8 @@ async fn setup_environment() {
         ("NEZHA_SERVER", "nz.abc.com"),
         ("NEZHA_PORT", "5555"),
         ("NEZHA_KEY", ""),
-        ("ARGO_DOMAIN", "yingguo1.cylicyh.filegear-sg.me"),  // argo固定隧道也可在scrects中添加环境变量
-        ("ARGO_AUTH", "eyJhIjoiYzQ4NTIxMzg1NTgxZmJhMDY4MmYxMWI1ZDkxYWNlMzgiLCJ0IjoiZTNhNjkzYjMtMjA5Ny00OTM0LTk5NmUtOWQwOWIzNGMxMjhlIiwicyI6Ik5XRmtObUV3WVRjdFpEWTBNeTAwTVdVd0xUazFPVEV0TlRJM1lqWmtNelk0TkRrMCJ9"),    // argo密钥，留空将使用临时隧道
+        ("ARGO_DOMAIN", ""),  // argo固定隧道也可在scrects中添加环境变量
+        ("ARGO_AUTH", ""),    // argo密钥，留空将使用临时隧道
         ("CFIP", "www.boba88slot.com"),
         ("CFPORT", "443"),
         ("NAME", "shuttle"),
