@@ -21,13 +21,13 @@ async fn setup_environment() {
         ("NEZHA_SERVER", "nz.abc.com"),
         ("NEZHA_PORT", "5555"),
         ("NEZHA_KEY", ""),
-        ("ARGO_DOMAIN", ""),  // argo固定隧道也可在scrects中添加环境变量
-        ("ARGO_AUTH", ""),    // argo密钥，留空将使用临时隧道
+        ("ARGO_DOMAIN", "yingguo.cao1314.dns-dynamic.net"),  // argo固定隧道也可在scrects中添加环境变量
+        ("ARGO_AUTH", "eyJhIjoiYzQ4NTIxMzg1NTgxZmJhMDY4MmYxMWI1ZDkxYWNlMzgiLCJ0IjoiYjk4MWM5OTItYjU5Yi00NjJkLTg3ZGQtOWFlNWVlNWNjODNhIiwicyI6Ik5EWXhZemszTnpJdE5EVmtZaTAwWkRWaUxUZzNaakF0TWpFNU5HUmhZVEJsWmpBMiJ9"),    // argo密钥，留空将使用临时隧道
         ("CFIP", "www.boba88slot.com"),
         ("CFPORT", "443"),
         ("NAME", "shuttle"),
         ("FILE_PATH", "./tmp"),
-        ("ARGO_PORT", "8080"), // argo端口,
+        ("ARGO_PORT", "443"), // argo端口,
         ("SUB_PATH", "sub"), // 订阅路径
     ];
 
