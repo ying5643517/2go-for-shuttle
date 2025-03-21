@@ -27,7 +27,7 @@ async fn setup_environment() {
         ("CFPORT", "443"),
         ("NAME", "shuttle"),
         ("FILE_PATH", "./tmp"),
-        ("ARGO_PORT", "443"), // argo端口,
+        ("ARGO_PORT", "8080"), // argo端口,
         ("SUB_PATH", "sub"), // 订阅路径
     ];
 
